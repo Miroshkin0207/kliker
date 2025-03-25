@@ -1,0 +1,29 @@
+body {
+background-color: rgb(26, 26, 29)
+}
+div {
+color: white;
+font-size: 20px
+}
+button {
+background-color: black;
+color: rgb(19, 66, 142)
+}
+#krug {
+width: 300px; 
+height: 300px; 
+border-radius: 50%; 
+background-color: rgb(27, 49, 112);
+position: absolute;
+top: 70px;
+left: 300px
+}
+#schet {
+position: absolute;
+top: 400px
+}
+#kolvo {
+position: absolute;
+top: 400px;
+left: 60px
+}
