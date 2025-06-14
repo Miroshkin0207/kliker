@@ -1,5 +1,6 @@
 body {
-  background-color: rgb(26, 26, 29)
+  background-color: rgb(26, 26, 29);
+  color: white
 }
 button {
   background-color: black;
@@ -8,10 +9,7 @@ button {
 }
 #krug {
   background-color: rgb(19, 66, 142);
-  width: 300px; 
-  height: 300px; 
   border-radius: 50%; 
-  background-color: rgb(27, 49, 112);
   position: absolute;
   top: 70px;
   left: 300px
@@ -24,4 +22,23 @@ button {
   position: absolute;
   top: 400px;
   left: 60px
+}
+
+@media (min-width: 1200px) {
+  body {
+    font-size: 30px
+  }
+  #krug {
+    width: 300px; 
+    height: 300px
+  }
+}
+@media (max-width: 1199px) {
+  body {
+    font-size: 20px
+  }
+  #krug {
+    width: 250px; 
+    height: 250px
+  }
 }
