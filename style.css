@@ -1,16 +1,13 @@
 body {
   background-color: rgb(26, 26, 29)
 }
-div {
-  color: white;
-  font-size: 20px
-}
 button {
   background-color: black;
   color: rgb(19, 66, 142);
   font-size: 20px
 }
 #krug {
+  background-color: rgb(19, 66, 142);
   width: 300px; 
   height: 300px; 
   border-radius: 50%; 
