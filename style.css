@@ -35,10 +35,10 @@ button {
 }
 @media (max-width: 1199px) {
   body {
-    font-size: 20px
+    font-size: 70px
   }
   #krug {
-    width: 250px; 
-    height: 250px
+    width: 400px; 
+    height: 400px
   }
 }
