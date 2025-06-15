@@ -5,7 +5,7 @@ body {
 button {
   background-color: black;
   color: rgb(19, 66, 142);
-  font-size: 30px
+  font-size: 40px
 }
 #krug {
   background-color: rgb(19, 66, 142);
@@ -36,6 +36,9 @@ button {
 @media (max-width: 1199px) {
   body {
     font-size: 70px
+  }
+  button {
+    font-size: 45px
   }
   #krug {
     width: 400px; 
