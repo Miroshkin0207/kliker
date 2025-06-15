@@ -9,10 +9,8 @@ button {
 }
 #krug {
   background-color: rgb(19, 66, 142);
-  border-radius: 50%; 
-  position: absolute;
-  top: 70px;
-  left: 300px
+  border-radius: 50%;
+  position: absolute
 }
 #schet {
   position: absolute;
@@ -30,7 +28,9 @@ button {
   }
   #krug {
     width: 300px; 
-    height: 300px
+    height: 300px;
+    top: 400px;
+    left: 500px:
   }
 }
 @media (max-width: 1199px) {
@@ -42,6 +42,8 @@ button {
   }
   #krug {
     width: 400px; 
-    height: 400px
+    height: 400px;
+    top: 550px;
+    left: 400px
   }
 }
